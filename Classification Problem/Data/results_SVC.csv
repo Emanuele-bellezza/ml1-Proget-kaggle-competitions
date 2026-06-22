@@ -1,0 +1,2 @@
+model,best_params,balanced_accuracy_mean,balanced_accuracy_std
+SVC (RBF),"{'model__C': 0.1, 'model__gamma': 'auto'}",0.675882633177643,0.007600009113121835

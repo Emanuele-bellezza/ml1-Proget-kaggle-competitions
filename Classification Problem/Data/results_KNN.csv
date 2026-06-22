@@ -1,0 +1,2 @@
+model,best_params,balanced_accuracy_mean,balanced_accuracy_std
+KNN,"{'model__n_neighbors': 5, 'model__weights': 'distance'}",0.5184567672180862,0.0038465384835280913

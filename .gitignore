@@ -1,0 +1,50 @@
+# Derived/intermediate data files
+Classification Problem/Data/restaurants_test_clean.csv
+Classification Problem/Data/restaurants_test_fe.csv
+Classification Problem/Data/restaurants_test_fe2.csv
+Classification Problem/Data/restaurants_test_final.csv
+
+# Pickle checkpoints (large binary files)
+Regression Problem/checkpoints/
+Regression Problem/encoded_datasets.pkl
+Regression Problem/experiment_log.pkl
+
+# Draft and intermediate notebooks
+Regression Problem/regression_final 2.ipynb
+Regression Problem/regression_final 3.ipynb
+Regression Problem/Regression analysis.ipynb
+Regression Problem/Regression_Aalysis_Emanuele_Bellezza_K-18722.ipynb
+Regression Problem/Regression_Analysis_final_4.ipynb
+Classification Problem/Classification_Analysis-2.ipynb
+Classification Problem/01_EDA_restaurants_1.ipynb
+
+# Draft .py scripts
+Regression Problem/Regression Analysis final 3.py
+Regression Problem/Regression_Analysis_final_4.py
+Regression Problem/gemini-code-1779887731848.py
+Classification Problem/Classification Analysis final.py
+Classification Problem/Classification Analysis fro Summary.py
+Classification Problem/Classification analysisis.py
+Classification Problem/Classification_Analysis-2.py
+Classification Problem/01_EDA_restaurants_1.py
+Classification Problem/02_data_preparation.py
+
+# Course instructions (internal)
+Regression Problem/Istruzioni/
+Regression Problem/Reminder/
+
+# Notes and chat logs
+Regression Problem/RIASSUNTO_CHAT_ML1.md
+Regression Problem/ML1_reminder_1.txt
+Regression Problem/regression_final 3.txt
+Classification Problem/# Analisi Dataset Restaurant.txt
+Regression Problem/Submissions/
+
+# Python cache
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
