@@ -1,9 +1,13 @@
 # ML1 Kaggle Competitions — Salary Regression & Restaurant Classification
 
+![Python](https://img.shields.io/badge/Python-3.8%2B-blue?logo=python)
+![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-Latest-orange?logo=scikit-learn)
+![Status](https://img.shields.io/badge/Status-Completed-success)
+
 Two supervised learning competitions from the Machine Learning 1 course at the University of Warsaw. Both use only algorithms covered in class: Linear Regression, Ridge, Lasso, ElasticNet, KNN, and SVR/SVC.
 
 **Course:** Machine Learning 1 · University of Warsaw (Erasmus) · 2025/26  
-**Author:** Emanuele Bellezza (K-18722)
+**Author:** Emanuele Bellezza (K-18722) | [LinkedIn](https://www.linkedin.com/in/emanuele-bellezza-957704256) | [GitHub](https://github.com/Emanuele-bellezza)
 
 ---
 
@@ -19,7 +23,8 @@ Two supervised learning competitions from the Machine Learning 1 course at the U
 ## 1. Regression — Developer Salary Prediction
 
 ### Problem
-Predict the annual salary (`annual.pay.usd`) of software developers based on 40 features including experience, location, programming languages, and job characteristics.
+Predict the annual salary (`annual.pay.usd`) of software developers based on 40 features including experience, location, programming languages, and job characteristics. 
+**Business Value:** Predicting salaries helps companies optimize their HR compensation strategies and allows job boards to estimate market values dynamically.
 
 **Dataset:** 2,512 training observations · 628 test observations · 40 features
 
@@ -74,6 +79,7 @@ SVR additionally uses `PowerTransformer (Yeo-Johnson)` before scaling — symmet
 
 ### Problem
 Predict whether a restaurant will close (`status_closed`) based on 86 features including location, rating history, competition density, and temporal review trends.
+**Business Value:** Forecasting restaurant closures assists commercial real estate investors in assessing tenant risk and helps food delivery platforms optimize their onboarding strategies.
 
 **Dataset:** 33,296 training observations · 8,325 test observations · 86 features  
 **Class imbalance:** 90.2% open / 9.8% closed → handled with `class_weight='balanced'`
@@ -109,6 +115,44 @@ Predict whether a restaurant will close (`status_closed`) based on 86 features i
 | **SVC (Linear)** | **0.686** ✅ |
 
 **Kaggle public score:** BA = 0.686 · **Rank: 9th**
+
+---
+
+## How to Run
+
+To reproduce the analysis and model training locally:
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/Emanuele-bellezza/ml1-kaggle-competitions.git
+cd ml1-kaggle-competitions
+```
+
+### 2. Set up the environment
+It is highly recommended to use a virtual environment to manage dependencies, particularly for libraries like `optbinning`.
+
+```bash
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+pip install -r requirements.txt
+```
+
+### 3. Run the Notebooks
+Launch Jupyter Notebook to view and execute the pipelines:
+```bash
+jupyter notebook
+```
+- Open `Regression Problem/final_pipeline_Regression_Emanuele_Bellezza_K-18722.ipynb` for the Salary prediction pipeline.
+- Open `Classification Problem/Classification_Task_Emanuele_Bellezza_K-18722.ipynb` for the Restaurant failure prediction pipeline.
+
+*(Note: Data paths within the notebooks are set relative to their respective directories).*
+
+---
+
+## Presentation Slides
+
+A comprehensive slide deck summarizing the business context, methodology, and results for both the regression and classification problems is available here:
+[`Final project ML1_Emanuele_Bellezza_K-18722.pptx`](./Final%20project%20ML1_Emanuele_Bellezza_K-18722.pptx)
 
 ---
 
