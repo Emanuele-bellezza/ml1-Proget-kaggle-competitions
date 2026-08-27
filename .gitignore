@@ -60,3 +60,12 @@ Regression Problem/submission_regression.csv
 Riassunto_ML1_Integrato_27_05_2026.md
 SCALETTA PRESENTAZIONE ML1 — 10 min.txt
 ~$*.pptx
+
+# Cartelle e file ignorati - Classification Problem
+Classification Problem/Istruzioni/
+Classification Problem/Submission/
+Classification Problem/Analisi_Dataset_Restaurant_v2_1.txt
+Classification Problem/Classification_Task_Emanuele_Bellezza_K-18722.ipynb
+Classification Problem/EDA + Data preparation + Feature engieneering.ipynb
+Classification Problem/Riassunto_Progetto_ML1_Aggiornato_25_05_2026.md
+Classification Problem/final_pipeline.py

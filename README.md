@@ -147,7 +147,7 @@ Launch Jupyter Notebook to view and execute the pipelines:
 jupyter notebook
 ```
 - Open `Regression Problem/final_pipeline_Regression_Emanuele_Bellezza_K-18722.ipynb` for the Salary prediction pipeline.
-- Open `Classification Problem/Classification_Task_Emanuele_Bellezza_K-18722.ipynb` for the Restaurant failure prediction pipeline.
+- Open `Classification Problem/Final_Pipeline_Classification_Emanuele_Bellezza_K-18722.ipynb` for the Restaurant failure prediction pipeline.
 
 *(Note: Data paths within the notebooks are set relative to their respective directories).*
 
@@ -172,7 +172,7 @@ ML1-kaggle-competitions/
 │   └── plots/                          ← EDA and model comparison charts
 │
 ├── Classification Problem/
-│   ├── Classification_Task_Emanuele_Bellezza_K-18722.ipynb        ← main notebook
+│   ├── Final_Pipeline_Classification_Emanuele_Bellezza_K-18722.ipynb        ← main notebook
 │   ├── Data/
 │   │   ├── restaurants_test.csv
 │   │   └── [derived CSVs excluded via .gitignore]
