@@ -1,2 +1,0 @@
-model,C,l1_ratio,threshold_default,ba_default,threshold_optimal,ba_optimal,roc_auc,average_precision
-PowerTransformer + L2 (C=0.1),0.1,,0.5,0.6842886052169342,0.4699999999999998,0.6860924499842578,0.746422046074011,0.23508724608434708

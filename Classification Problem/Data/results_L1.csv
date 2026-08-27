@@ -1,2 +1,0 @@
-model,best_params,balanced_accuracy_mean,balanced_accuracy_std,accuracy_mean
-Logistic L1 (LASSO),{'model__C': 10},0.6787609226731595,0.006041854399326202,0.6779266523827048

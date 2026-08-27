@@ -16,7 +16,7 @@ Two supervised learning competitions from the Machine Learning 1 course at the U
 | Task | Target | Metric | Best Model | Score |
 |------|--------|--------|-----------|-------|
 | [Regression](#1-regression--developer-salary-prediction) | Developer annual salary (USD) | RMSE | SVR (RBF kernel) | ~$34,090 RMSE |
-| [Classification](#2-classification--restaurant-failure-prediction) | Restaurant closure (binary) | Balanced Accuracy | SVC | 0.686 BA |
+| [Classification](#2-classification--restaurant-failure-prediction) | Restaurant closure (binary) | Balanced Accuracy | Logistic Regression (L2) + PowerTransformer | 0.6852 BA |
 
 ---
 
@@ -107,14 +107,18 @@ Predict whether a restaurant will close (`status_closed`) based on 86 features i
 
 | Model | CV Balanced Accuracy |
 |-------|---------------------|
-| Logistic Regression (baseline) | ~0.62 |
-| Ridge Classifier | ~0.64 |
-| Lasso | ~0.63 |
-| ElasticNet | ~0.64 |
-| KNN | ~0.65 |
-| **SVC (Linear)** | **0.686** ✅ |
+| KNN (k=5) | 0.5175 |
+| Baseline Logistic (old) | 0.6566 |
+| SVC RBF (C=0.1) | 0.6760 |
+| Logistic pura (no penalty) | 0.6786 |
+| StandardScaler + L2 | 0.6787 |
+| PowerTransformer + L1 | 0.6838 |
+| PowerTransformer + ElasticNet | 0.6849 |
+| **PowerTransformer + L2 (Logistic Regression)** | **0.6852** ✅ |
 
-**Kaggle public score:** BA = 0.686 · **Rank: 9th**
+**Kaggle public score:** BA = 0.6852 · **Rank: 9th**
+
+**Why PowerTransformer + L2 wins:** The combination of non-linear power transformations (Yeo-Johnson) to stabilize variance and make the data more Gaussian-like, coupled with L2 regularization (Ridge) to prevent overfitting on the highly engineered features (like marginal POI rings and WoE transformations), proved superior to complex SVMs for this specific dataset.
 
 ---
 

@@ -1,2 +1,0 @@
-model,best_params,balanced_accuracy_mean,balanced_accuracy_std
-Logistic L2 (Ridge),{'model__C': 10},0.6779555812764914,0.005545513661889655

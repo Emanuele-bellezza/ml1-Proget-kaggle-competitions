@@ -1,2 +1,0 @@
-model,balanced_accuracy_mean,balanced_accuracy_std,accuracy_mean,precision_mean,recall_mean,f1_mean
-Baseline Logistic,0.6779220443124612,0.00572188890669819,0.6662361039519773,0.18294739646061858,0.6924633893907676,0.2894063134227436

@@ -1,2 +1,0 @@
-model,best_params,balanced_accuracy_mean,balanced_accuracy_std
-Logistic ElasticNet,"{'model__C': 10, 'model__l1_ratio': 0.25}",0.6787942227064596,0.006047841311352779
