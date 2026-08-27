@@ -48,3 +48,15 @@ __pycache__/
 # OS
 .DS_Store
 Thumbs.db
+
+# File intermedi Regressione
+Regression Problem/Data/lasso_selected_features.csv
+Regression Problem/Data/train_imputed.csv
+Regression Problem/Data/test_imputed.csv
+Regression Problem/Data/sample_submission.csv
+Regression Problem/submission_regression.csv
+
+# Appunti e presentazioni
+Riassunto_ML1_Integrato_27_05_2026.md
+SCALETTA PRESENTAZIONE ML1 — 10 min.txt
+~$*.pptx
